@@ -72,7 +72,7 @@ public class BoardController {
         //4.결과 객체 전송
         mv.addObject("list",getBoardList);
         mv.addObject("pagination",pagination);
-       
+
 
         return mv;
     }
